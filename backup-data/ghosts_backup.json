@@ -88,11 +88,11 @@
             "nightmare_evidence": null,
             "behavior": [
                 "<Información>",
-                "Can throw multiple objects at once, decreasing player sanity 2% per item thrown",
-                "Will throw an item every 0.5s during a hunt",
+                "Puede lanzar multiples objetos a la vez reduciendo la cordura del jugador un 2% por cada objeto lanzado.",
+                "Lanza o interactua con los objetos cada 0.5s durante la caceria.",
                 "<Comportamiento>",
-                "Higher chance to throw & interact with objects",
-                "Can throw objects faster and further"
+                "Mayor probabilidad de que lance o interactue con objetos.",
+                "Puede lanzar los objetos velozmente y mas lejos que otros fantasmas."
             ]
         },
         {
@@ -113,14 +113,14 @@
             "nightmare_evidence": null,
             "behavior": [
                 "<Información>",
-                "Banshee scream through paramic  <span class=\"sound\" onClick=\"playSound('https://zero-network.net/phasmophobia/static/assets/banshee_scream.mp3')\">🔊</span>",
+                "Grita a traves la parabolica <span class=\"sound\" onClick=\"playSound('https://zero-network.net/phasmophobia/static/assets/banshee_scream.mp3')\">🔊</span>",
                 "<Comportamiento>",
-                "Will only go after its target during a hunt (unless target is outside)",
-                "Will roam toward its target, without leaving EMF 2",
-                "Will attempt to roam toward their target while in DOTs state",
-                "Prefers singing ghost events",
-                "<Hunt Sanity>",
-                "Hunts when target's sanity is 50% or lower (even if target is outside), meaning it can hunt as early as 87% average sanity"
+                "Solo ira tras una persona durante la caceria (a no ser que el objetivo este fuera)",
+                "Se mueve hacia su objetivo, dejando un EMF 2",
+                "Intentará moverse hacia su objetivo mientras esté en estado DOT",
+                "Prefiere los eventos de cantico",
+                "<Cordura de ataque>",
+                "Atacara cuando la cordura de su objetivo este en 50% o por debajo, lo que significa que puede cazar con un 87% de cordura promedio"
             ]
         },
         {
@@ -141,15 +141,15 @@
             "nightmare_evidence": null,
             "behavior": [
                 "<Información>",
-                "Ability to drop nearby players' sanity by 25%, with EMF 2 or EMF 5 at the breaker (when breaker is on)",
+                "Su habilidad reducira la cordura de los jugadores cercanos en un 25%, dando a lugar un EMF 2 o 5 en la caja de fusibles (cuando esta encendido)",
                 "<Comportamiento>",
-                "Can not turn off fuse box directly",
-                "<Hunt Speed>",
-                "2.5m/s when fuse box is on, has LOS, and is further than 3m from the seen player, 1.7m/s otherwise"
+                "No puede apagar la caja de fusibles",
+                "<Velocidad>",
+                "2.5m/s cuando los fusibles estan encendidos y el jugador se encuentra a mas de 3m, 1.7m/s cuando esta a menos de 3m"
             ]
         },
         {
-            "ghost": "Mare",
+            "ghost": "Pesadilla",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -166,13 +166,13 @@
             "nightmare_evidence": null,
             "behavior": [
                 "<Información>",
-                "Ability to immediately turn off a light that a player has turned on (can only test for ability once every 10s)",
-                "Cannot turn on lights (keyboard and TV excluded)",
+                "Habilidad de apagar inmediatamente el interruptor que encendio el jugador (Se puede probar solamente 1 vez cada 10s)",
+                "No puede encender luces (teclados y televisiones si)",
                 "<Comportamiento>",
-                "More likely to turn off and bust lights",
-                "More likely to wander to a room where lights are off",
-                "<Hunt Sanity>",
-                "60% when lights are off in the ghost's current room, 40% when on"
+                "Es más probable que se apaguen y se rompan las luces.",
+                "Es más probable que deambule por una habitación donde las luces están apagadas.",
+                "<Cordura de ataque>",
+                "60% cuando las luces de su habitacion estan apagadas, 40% cuando estan encendidas"
             ]
         },
         {
@@ -192,12 +192,12 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Hunt Speed>",
-                "3.0m/s immediately once the player has been sensed (equipment, voice, or line of sight) and until ghost has reached the players last known location where it will gradually slow down to 1m/s"
+                "<Velocidad>",
+                "3.0m/s inmediatamente que detecta al jugador (equipamiento, voz, o linea de vision) hasta que el fantasma haya llegado a la última ubicación conocida del jugador, donde se reducirá gradualmente a 1 m/s"
             ]
         },
         {
-            "ghost": "Shade",
+            "ghost": "Sombra",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -214,16 +214,16 @@
             "nightmare_evidence": null,
             "behavior": [
                 "<Información>",
-                "Does not do interactions that result in EMF 2, 3, or 5 with someone in the same room (except writing and blowing out firelights)",
-                "Will not hunt with someone in the same room",
+                "Sus interacciones no daran como resultado EMF 2, 3 o 5 cuando alguien esta en su habitación (excepto escritura o soplar una vela)",
+                "No cazara con alguien en la misma habitacion que el fantasma",
                 "<Comportamiento>",
-                "More ghost events at lower average sanity (cannot do ghost events at 100% sanity)",
-                "Less likely to appear as full ghost model but more likely to do 'ghost mist' event",
-                "Only ghost that has a chance to appear as a shadow if summoned from music box, monkey paw, or summoning circle"
+                "Mas eventos cuando la cordura promedio esta baja (No hace eventos al 100% de cordura promedio)",
+                "Es menos probable que aparezca como sombra en los eventos, pero es más probable que aparezca el evento de bola.",
+                "El único fantasma que tiene la posibilidad de aparecer como una sombra si se invoca desde una caja de música, mano de mono o un círculo de invocación."
             ]
         },
         {
-            "ghost": "Demon",
+            "ghost": "Demonio",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -240,12 +240,12 @@
             "nightmare_evidence": null,
             "behavior": [
                 "<Información>",
-                "Incensing the ghost will prevent a hunt for 60s instead of the normal 90s",
-                "20s minimum hunt cool-down (normal is 25s)",
+                "Usar incienso cerca del fantasma evitara que cace durante 60s en vez de 90s.",
+                "Tiempo entre cacerias de 20s (tiempo normal 25s)",
                 "<Comportamiento>",
-                "Crucifix range increased by 50% per tier (4.5m, 6m, 7.5m respectively)",
-                "<Hunt Sanity>",
-                "Ability to hunt at any sanity, hunts normally at 70%"
+                "El crucifijo tiene un rango aumentado del 50% dependiendo del tier (T1: 4.5m. T2: 6m. T3: 7.5m)",
+                "<Cordura de ataque>",
+                "Puede cazar a cualquier nivel de cordura, caza normalmente a partir del 70%"
             ]
         },
         {
