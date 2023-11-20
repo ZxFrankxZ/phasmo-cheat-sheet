@@ -19,8 +19,8 @@ evi_icons = {
 }
 
 behavior_titles = {
-    "<Tells>":"<div class='dtitle'><i>Tells</i><div class='ddash'></div></div>",
-    "<Behaviors>":"<div class='dtitle'><i>Behaviors</i><div class='ddash'></div></div>",
+    "<Información>":"<div class='dtitle'><i>Información</i><div class='ddash'></div></div>",
+    "<Comportamiento>":"<div class='dtitle'><i>Comportamiento</i><div class='ddash'></div></div>",
     "<Hunt Sanity>":"<div class='dtitle'><i>Hunt Sanity</i><div class='ddash'></div></div>",
     "<Hunt Speed>":"<div class='dtitle'><i>Hunt Speed</i><div class='ddash'></div></div>",
     "<Evidence>":"<div class='dtitle'><i>Evidence</i><div class='ddash'></div></div>"
