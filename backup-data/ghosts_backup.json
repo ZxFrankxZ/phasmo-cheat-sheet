@@ -17,12 +17,12 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Usando incienso cerca del fantasma evitara que cace en 180s(3m) en vez de 90s de normal(1,5m)"
             ]
         },
         {
-            "ghost": "Wraith",
+            "ghost": "Espectro",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -38,15 +38,15 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
-                "asda will never step in salt of any tier",
-                "Will not be slowed down by tier 3 salt during a hunt",
-                "<Behaviors>",
-                "Can teleport to random players, leaving EMF 2 or EMF 5"
+                "<Información>",
+                "El fantasma nunca pisara la sal sin importar su tier.",
+                "No se relentizara por la sal de tier 3 durante una caceria.",
+                "<Comportamiento>",
+                "Se puede hacer tp a un jugador aleatorio dejando como resultado EMF 2 o EMF 5."
             ]
         },
         {
-            "ghost": "Phantom",
+            "ghost": "Ente",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -62,12 +62,12 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
-                "Does not appear in ghost photo",
-                "During an event or during DOTs state, taking a photo will cause the ghost to disappear",
-                "Less visible during hunts (See 'Guides' tab)",
-                "<Behaviors>",
-                "Can roam to a random player, leaving EMF 2"
+                "<Información>",
+                "No se les ve en las fotografias",
+                "Al tomarle foto durante un evento o aparicion en dosts hara que el fantasma desaparezca al instante.",
+                "Su parpadeo es mas lento durante las cacerias.",
+                "<Comportamiento>",
+                "Puede seguir a un jugador random dejando como resultado EMF 2."
             ]
         },
         {
@@ -87,10 +87,10 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Can throw multiple objects at once, decreasing player sanity 2% per item thrown",
                 "Will throw an item every 0.5s during a hunt",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "Higher chance to throw & interact with objects",
                 "Can throw objects faster and further"
             ]
@@ -112,9 +112,9 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Banshee scream through paramic  <span class=\"sound\" onClick=\"playSound('https://zero-network.net/phasmophobia/static/assets/banshee_scream.mp3')\">🔊</span>",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "Will only go after its target during a hunt (unless target is outside)",
                 "Will roam toward its target, without leaving EMF 2",
                 "Will attempt to roam toward their target while in DOTs state",
@@ -140,9 +140,9 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Ability to drop nearby players' sanity by 25%, with EMF 2 or EMF 5 at the breaker (when breaker is on)",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "Can not turn off fuse box directly",
                 "<Hunt Speed>",
                 "2.5m/s when fuse box is on, has LOS, and is further than 3m from the seen player, 1.7m/s otherwise"
@@ -165,10 +165,10 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Ability to immediately turn off a light that a player has turned on (can only test for ability once every 10s)",
                 "Cannot turn on lights (keyboard and TV excluded)",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "More likely to turn off and bust lights",
                 "More likely to wander to a room where lights are off",
                 "<Hunt Sanity>",
@@ -213,10 +213,10 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Does not do interactions that result in EMF 2, 3, or 5 with someone in the same room (except writing and blowing out firelights)",
                 "Will not hunt with someone in the same room",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "More ghost events at lower average sanity (cannot do ghost events at 100% sanity)",
                 "Less likely to appear as full ghost model but more likely to do 'ghost mist' event",
                 "Only ghost that has a chance to appear as a shadow if summoned from music box, monkey paw, or summoning circle"
@@ -239,10 +239,10 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Incensing the ghost will prevent a hunt for 60s instead of the normal 90s",
                 "20s minimum hunt cool-down (normal is 25s)",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "Crucifix range increased by 50% per tier (4.5m, 6m, 7.5m respectively)",
                 "<Hunt Sanity>",
                 "Ability to hunt at any sanity, hunts normally at 70%"
@@ -265,10 +265,10 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Can shut a door and drop sanity of nearby players by 15% <b><i>if</i></b> a door is in the room",
                 "Only ghost that can close or interact with an exit door outside of a hunt or ghost event",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "Incense traps ghost in its room and prevents wandering for 60 seconds"
             ]
         },
@@ -289,11 +289,11 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Drains 20% on ghost events, instead of 10%",
                 "Will <b><i>not</i></b> do 'ghost mist' event",
                 "More visible during hunts (See 'Guides' tab)",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "More active around multiple people",
                 "More likely to appear as full ghost model"
             ]
@@ -315,9 +315,9 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Hearing/electronic detection distance is less than 2.5m during hunts",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "More active when talked to",
                 "Music box can be brought much closer to the ghost before it breaks",
                 "<Hunt Sanity>",
@@ -341,10 +341,10 @@
             ],
             "nightmare_evidence": "Freezing",
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Ghost can have visible freezing breath in any room during hunts with the breaker off/broken",
                 "Cannot turn breaker on",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "High chance to turn breaker off",
                 "<Hunt Speed>",
                 "Faster in colder temperatures, <b>does not speed up in line-of-sight</b>",
@@ -369,9 +369,9 @@
             ],
             "nightmare_evidence": "DOTs",
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "DOTs only appear on video camera and will not show if a player is in the same room (DOTs state can start outside of room and enter a player's room)",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "Can not change favorite rooms",
                 "Does not leave room as often",
                 "<Evidence>",
@@ -395,9 +395,9 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Footsteps and vocals cannot be heard more than 12m away during hunts (normal is 20m)",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "Lots of paranormal sounds through paramic"
             ]
         },
@@ -418,9 +418,9 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Will hunt at any sanity after extinguishing every 3rd flame if no other flames or crucifix will prevent it",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "Flames act like crucifixes, will blow out a flame if it tries to hunt (within 4m)",
                 "More likely to extinguish a flame, the more players that are dead",
                 "<Hunt Sanity>",
@@ -444,9 +444,9 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Often do interactions at the same time (at physical location and ranged location)",
-                "<Behaviors>",
+                "<Comportamiento>",
                 "Only triggers motion sensors, steps in salt, and gives spirit box at it's physical location",
                 "<Hunt Speed>",
                 "1.53m/s when hunting from physical location, 1.87m/s when hunting from ranged location"
@@ -469,7 +469,7 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "During a hunt, flickers electronics at 15m range instead of 10m",
                 "<Hunt Sanity>",
                 "Can hunt at 65% sanity near active player equipment",
@@ -496,7 +496,7 @@
             ],
             "nightmare_evidence": "Ultraviolet",
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Special 6 fingered fingerprints (See 'Guides' tab)",
                 "Has a 6.66% chance to change ghost models when flickering during hunts (guaranteed once per hunt, returns to original model)",
                 "Has a 25% chance to not leave ultraviolet evidence",
@@ -522,7 +522,7 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Always shows orbs as additional fake evidence (4th evidence) even in 0 evidence",
                 "Copies the behavior and traits of other ghosts",
                 "Changes ghost behavior every 30 seconds to 2 minutes",
@@ -549,7 +549,7 @@
             ],
             "nightmare_evidence": "Spirit Box",
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Places curse on player when heard through paramic or spirit box, curse drops sanity 2x as fast",
                 "Incense blindness duration increased by 50% (7.5s instead of 5s)",
                 "<Hunt Speed>",
@@ -576,7 +576,7 @@
             ],
             "nightmare_evidence": "Spirit Box",
             "behavior": [
-                "<Tells>",
+                "<Información>",
                 "Heavy breathing through spirit box when within 1m of the ghost  <span class=\"sound\" onClick=\"playSound('https://zero-network.net/phasmophobia/static/assets/deogen_breathing.mp3')\">🔊</span>",
                 "Cannot hide from a Deogen",
                 "<Hunt Speed>",
@@ -602,7 +602,7 @@
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Behaviors>",
+                "<Comportamiento>",
                 "Ghost ages over time (every 1-2 minutes) while player is nearby",
                 "More active when younger",
                 "Age response on Ouija board increases as Thaye ages",
